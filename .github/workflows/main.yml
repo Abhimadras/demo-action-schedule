@@ -14,9 +14,7 @@ jobs:
         
       - name: Create commit with 21f1004469@ds.study.iitm.ac.in
         run: |
-          echo "Daily update $(date)" >> daily_log.txt
-          git config --global user.name "GitHub Actions"
+          git config --global user.name "Abhimadras"
           git config --global user.email "21f1004469@ds.study.iitm.ac.in"
-          git add .
           git commit -m "Automated daily commit [21f1004469@ds.study.iitm.ac.in]"
           git push
